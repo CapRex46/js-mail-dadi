@@ -16,3 +16,18 @@ if (mailcheck) {
 } else {
     console.log('Impossibile accedere')
 }
+
+
+const playernum = Math.round(Math.random() * (6 - 1)) + 1;
+const cpunum = Math.round(Math.random() * (6 - 1)) + 1;
+
+console.log(playernum, cpunum)
+
+
+if (playernum > cpunum) {
+    console.log("hai vinto");
+} else if (cpunum > playernum) {
+    console.log("hai perso");
+} else {
+    console.log("pari")
+}
