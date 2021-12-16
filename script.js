@@ -1,7 +1,6 @@
 const mail = ['test1@mail.com', 'test2@mail.com', 'test3@mail.com', 'test4@mail.com'];
 let mailcheck = false;
 
-
 const userEmail = prompt('Dimmi la tua email');
 
 
